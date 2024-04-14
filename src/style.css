@@ -1,0 +1,90 @@
+* {
+  background-color: rgb(18, 29, 29);
+  box-sizing: border-box;
+}
+
+h1,
+p,
+input,
+button {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  color: beige;
+}
+
+h1{
+  font-size: 30px;
+}
+
+input{
+  background-color: beige;
+  color: darkslategray;
+  border-radius: 10px;
+  padding: 0px 10px;
+  margin: 0px 5px;
+  width: 120px;
+}
+
+#btnStartGame{
+  background-color: lightseagreen;
+  border-radius: 35px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.simonButton,
+.redDark,
+.redLight,
+.greenDark,
+.greenLight,
+.blueDark,
+.blueLight,
+.yellowDark,
+.yellowLight {
+  background-color: darkslategray;
+  border-radius: 35px;
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.redDark {
+  background-color: darkred;
+}
+
+.redLight {
+  background-color: red;
+}
+
+.greenDark {
+  background-color: darkgreen;
+}
+
+.greenLight {
+  background-color: rgb(0, 179, 0);
+}
+
+.blueDark {
+  background-color: darkblue;
+}
+
+.blueLight {
+  background-color: blue;
+}
+
+.yellowDark {
+  background-color: rgb(174, 125, 0);
+}
+
+.yellowLight {
+  background-color: rgb(255, 225, 0);
+}

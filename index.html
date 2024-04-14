@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIMON!</title>
+  <script type="module" src="src/main.ts"></script>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <h1 id="gameHeader">SIMON GAME</h1>
+    <p>Enter Your Name <input id="inptName" type="text" placeholder="Here..."> or Start as Guest</p>
+    <p><button id="btnStartGame">START</button></p>
+
+    <div>
+      <button id="btnRed" class="simonButton"> </button>
+      <button id="btnGreen" class="simonButton"> </button>
+    </div>
+
+    <div>
+      <button id="btnBlue" class="simonButton"> </button>
+      <button id="btnYellow" class="simonButton"> </button>
+    </div>
+
+    <p>LEVEL: <input id="inptLevel" type="text"> CLICKS: <input id="inptClicks" type="text"></p>
+
+    <p id="pResults"></p>
+  </div>
+
+</body>
+
+</html>
